@@ -1,0 +1,30 @@
+{
+  "name": "photo-management-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@pinia-plugin-persistedstate/nuxt": "^1.2.0",
+    "@vueuse/core": "^10.0.0",
+    "axios": "^1.4.0",
+    "moment": "^2.29.4",
+    "pinia": "^2.1.0",
+    "viewerjs": "^1.11.7",
+    "vue": "^3.3.0",
+    "vue-router": "^4.2.0"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.2.0",
+    "@vitejs/plugin-vue": "^4.6.2",
+    "@vue/eslint-config-prettier": "^7.1.0",
+    "eslint": "^8.39.0",
+    "prettier": "^2.8.8",
+    "sass": "^1.62.1",
+    "vite": "^4.5.14"
+  }
+}

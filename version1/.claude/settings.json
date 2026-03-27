@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir /a)",
+      "Bash(cmd /c \"dir /s\")",
+      "Bash(cmd /c \"dir /ah\")",
+      "Read(//c/Users/Simo/IdeaProjects/**)",
+      "Bash(mvn spring-boot:run)",
+      "Bash(curl -X POST http://localhost:8080/api/auth/register -H \"Content-Type: application/json\" -d \"{\"\"firstName\"\":\"\"Test\"\",\"\"lastName\"\":\"\"User\"\",\"\"email\"\":\"\"test@example.com\"\",\"\"username\"\":\"\"testuser\"\",\"\"password\"\":\"\"password123\"\",\"\"bio\"\":\"\"Test user for the photo management system\"\"}\")",
+      "Bash(findstr \"java\")",
+      "Bash(pkill -f \"mvn spring-boot:run\")",
+      "Bash(pkill -f \"photo-management-system\")",
+      "Bash(netstat -ano)",
+      "Bash(findstr :8080)",
+      "Bash(taskkill /PID 13096 /F)",
+      "Bash(cmd /c taskkill /PID 13096 /F)",
+      "Bash(start /b cmd /c \"cd backend && mvn spring-boot:run\")",
+      "Bash(powershell -Command \"Stop-Process -Id 13096 -Force\")",
+      "Bash(curl -X POST http://localhost:8080/api/auth/register -H \"Content-Type: application/json\" -d \"{\"\"firstName\"\":\"\"Test\"\",\"\"lastName\"\":\"\"User2\"\",\"\"email\"\":\"\"test2@example.com\"\",\"\"username\"\":\"\"testuser2\"\",\"\"password\"\":\"\"password123\"\",\"\"bio\"\":\"\"Test user for the photo management system\"\"}\")",
+      "Bash(curl -X POST http://localhost:8080/api/auth/login -H \"Content-Type: application/json\" -d \"{\"\"username\"\":\"\"testuser2\"\",\"\"password\"\":\"\"password123\"\"}\")",
+      "Bash(curl -I http://localhost:3002)",
+      "Bash(powershell -Command \"Stop-Process -Id 18676 -Force\")",
+      "Bash(curl -X POST http://localhost:8080/api/auth/register -H \"Content-Type: application/json\" -d \"{\"\"firstName\"\":\"\"Test\"\",\"\"lastName\"\":\"\"User\"\",\"\"email\"\":\"\"test@example3@example.com\"\",\"\"username\"\":\"\"testuser3\"\",\"\"password\"\":\"\"password123\"\",\"\"bio\"\":\"\"Test user for the photo management system\"\"}\")",
+      "Bash(curl -X GET http://localhost:8080/api/photos -H \"Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0dXNlcjMiLCJpYXQiOjE3NzQzNjcyNjcsImV4cCI6MTc3NDQ1MzY2N30.NI3_4mzO8IrD6K369zR0gT-ow6Su9c3rmLv2am944FU\")",
+      "Bash(curl -X POST http://localhost:8080/api/auth/register -H \"Content-Type: application/json\" -d \"{\"\"firstName\"\":\"\"Test\"\",\"\"lastName\"\":\"\"User4\"\",\"\"email\"\":\"\"test4@example.com\"\",\"\"username\"\":\"\"testuser4\"\",\"\"password\"\":\"\"password123\"\",\"\"bio\"\":\"\"Test user for the photo management system\"\"}\")",
+      "Bash(curl -X GET http://localhost:8080/api/photos -H \"Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0dXNlcjQiLCJpYXQiOjE3NzQzNjc0NjAsImV4cCI6MTc3NDQ1Mzg2MH0.AUJfMjKEHDiKnsqgSvMJuhCAdiQLsWysW1ra-Xr2TJA\")",
+      "Bash(powershell -Command \"Stop-Process -Id 13780 -Force\")",
+      "Bash(curl -X GET http://localhost:8080/actuator/health)"
+    ]
+  }
+}
